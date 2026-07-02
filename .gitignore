@@ -1,0 +1,26 @@
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor/IDE
+.vscode/
+.idea/
+*.swp
+
+# Build artifacts
+*.o
+*.obj
+*.class
+__pycache__/
+*.pyc
+build/
+dist/
+
+# Large raw video (link YouTube instead of committing large files)
+*.mov
+*.mp4
+*.avi
+
+# Draft/temp
+*.tmp
+~$*
