@@ -140,10 +140,29 @@ The front axle uses **true Ackermann steering geometry**, actuated by a single *
 
 ## Chassis
 
-The chassis was **custom-designed in Fusion 360** and **3D printed** in-house. All CAD files are available in `/models`:
+The chassis was **custom-designed in Fusion 360** and **3D printed** in-house. All CAD files are available in `/models`.
 
-- **3D-printed parts** (`/models/3d-printed`): [Base](models/3d-printed/Base.stl), [Front axle upper cover](<models/3d-printed/Front axle upper cover.stl>), [Front steering mechanism (with servo link point)](<models/3d-printed/Front steering mechanism with servo link point.stl>), [Front steering mechanism (without servo link point)](<models/3d-printed/Front steering mechanism without servo link point.stl>), [Rear axle spur gear](<models/3d-printed/Rear axle spur gear.stl>), [Rear axle](models/3d-printed/Rear%20axle.stl), [Center support beams](<models/3d-printed/center support beams.stl>), [Links](models/3d-printed/links.stl), [Motor spur gear](<models/3d-printed/motor spur gear.stl>), [Top cover v2](<models/3d-printed/top cover v2.stl>), [Top-most layer v2](<models/3d-printed/top most layer v2.stl>)
-- **Full assembly** (`/models/Assembly`): [assembly.step](models/Assembly/assembly.step)
+**3D-printed parts** (`/models/3d-printed`):
+
+| Part | Render | STL |
+|---|---|---|
+| Base | ![Base](<models/3d-printed/png files/base.png>) | [Base.stl](models/3d-printed/Base.stl) |
+| Front axle upper cover | ![Front axle upper cover](<models/3d-printed/png files/front axle upper cover.png>) | [Front axle upper cover.stl](<models/3d-printed/Front axle upper cover.stl>) |
+| Front steering mechanism (with servo link point) | ![Front steering mechanism with servo link point](<models/3d-printed/png files/Front steering mechanism with servo link point.png>) | [Front steering mechanism with servo link point.stl](<models/3d-printed/Front steering mechanism with servo link point.stl>) |
+| Front steering mechanism (without servo link point) | ![Front steering mechanism without servo link point](<models/3d-printed/png files/Front steering mechanism without servo link point.png>) | [Front steering mechanism without servo link point.stl](<models/3d-printed/Front steering mechanism without servo link point.stl>) |
+| Rear axle | ![Rear axle](<models/3d-printed/png files/Rear axle.png>) | [Rear axle.stl](<models/3d-printed/Rear axle.stl>) |
+| Rear axle spur gear | ![Rear axle spur gear](<models/3d-printed/png files/Rear axle spur gear.png>) | [Rear axle spur gear.stl](<models/3d-printed/Rear axle spur gear.stl>) |
+| Motor spur gear | ![Motor spur gear](<models/3d-printed/png files/motor spur gear.png>) | [motor spur gear.stl](<models/3d-printed/motor spur gear.stl>) |
+| Center support beams | ![Center support beams](<models/3d-printed/png files/center support beams.png>) | [center support beams.stl](<models/3d-printed/center support beams.stl>) |
+| Links | ![Links](<models/3d-printed/png files/Links.png>) | [links.stl](models/3d-printed/links.stl) |
+| Top cover v2 | ![Top cover v2](<models/3d-printed/png files/top cover v2.png>) | [top cover v2.stl](<models/3d-printed/top cover v2.stl>) |
+| Top-most layer v2 | ![Top-most layer v2](<models/3d-printed/png files/top most layer v2.png>) | [top most layer v2.stl](<models/3d-printed/top most layer v2.stl>) |
+
+**Full assembly** (`/models/Assembly`):
+
+| Render | STEP File |
+|---|---|
+| ![Full assembly](models/Assembly/assembly.png) | [assembly.step](models/Assembly/assembly.step) |
 
 ---
 
