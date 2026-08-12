@@ -318,6 +318,7 @@ Pi Camera ─► camera_detector ─► pillar_tracker ─┘                   
 
 ## Obstacle Challenge State Machine
 
+![Obstacle Challenge Flowchart](<schemes/Flowchart/Obstacle Challenge/Obstacle Challenge.png>)
 
 | State | Meaning |
 |---|---|
