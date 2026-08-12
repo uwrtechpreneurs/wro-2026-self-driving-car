@@ -48,6 +48,8 @@ This repository contains the engineering documentation for **UWR TechPreneurs**'
 
 ### Muhammed Fadhil PP
 
+(<photos/team/fadhil.jpeg>)
+
 **Age:** 18
 
 *(Bio to be added.)*
@@ -65,8 +67,6 @@ This repository contains the engineering documentation for **UWR TechPreneurs**'
 Both team members work across the full stack of the project mechanical design, electronics, and software  rather than splitting into fixed roles.
 
 ### Team Photo
-
-*(To be added — save the team photo under `/photos/team/` and embed it here, e.g. `![Team Photo](photos/team/team.jpeg)`.)*
 
 ---
 
@@ -234,7 +234,7 @@ A **BNO055 9 DOF absolute orientation sensor** is read by the Teensy 4.0 and str
 
 ## Circuit Diagram
 
-The full wiring diagram is available as an editable Fusion Electronics file: [Circuit Diagram.fzz](<schemes/Circuit Diagram/Circuit Diagram.fzz>). *(A PNG export is pending upload.)*
+ [Circuit Diagram.fzz](<schemes/Circuit Diagram/Circuit Diagram.fzz>).
 
 ## Power Budget
 
