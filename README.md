@@ -98,7 +98,8 @@ This challenge emphasizes:
 | ![Front](photos/vehicle/front.jpeg) | ![Back](photos/vehicle/back.jpeg) |
 | Left | Right |
 | ![Left](photos/vehicle/left%20side.jpeg) | ![Right](photos/vehicle/right%20side.jpeg) |
-
+| Top | |
+| ![Top](photos/vehicle/top.jpeg) | |
 
 ---
 
