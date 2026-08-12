@@ -48,8 +48,8 @@ This repository contains the engineering documentation for **UWR TechPreneurs**'
 
 ### Muhammed Fadhil PP
 
-[fadhil](photos/team/fadhil.jpeg)
 
+| ![Front]((photos/team/fadhil.jpeg)) |
 **Age:** 18
 
 *(Bio to be added.)*
