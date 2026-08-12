@@ -261,7 +261,16 @@ The power/current budget is a rough, estimated sketch (not bench measured) used 
 | Motor driver (DRV8876) | Drive motor | 11.1V | 3.00A | 33.30W |
 | **Estimated total (worst case, all loads simultaneous)** | | | | **≈ 70.8W** |
 
-Sized against the **GenX 11.1V 3S 2200mAh LiPo** (≈ 24.4Wh), this worst case draw implies roughly 20 minutes of continuous runtime if every load were maxed out simultaneously in practice the servo and motor rarely hit peak current at the same time, so real runtime per charge is considerably longer. This estimate is what justified giving the servo and Teensy their own regulators (UBEC / buck) rather than sharing a single 5V rail with the Pi 5, since the servo's peak draw alone would be enough to brown out shared logic electronics.
+
+**Power budget:**
+
+- **Battery:** 11.1V with a continuous discharge capability of 88A (40C × 2200mAh) ≈ 977W continuously.
+- **Load:** 70.8W (worst case). The battery is more than capable of handling this load.
+
+*Run time estimation:* Sized against the **GenX 11.1V 3S 2200mAh LiPo** (≈ 24.4Wh), this worst-case draw implies roughly 20 minutes of continuous runtime if every load were maxed out simultaneously in practice the servo and motor rarely hit peak current at the same time, so real runtime per charge is considerably longer.
+
+The rail separation wasn't driven by this power budget the battery has plenty of headroom either way. It came from testing: current spikes from sudden servo movements were noising up the logic circuits, so we isolated the servo onto its own UBEC, separate from the Teensy/microcontroller's buck converter. The Pi 5 got its own 65W PD-capable rail because it draws far more power than everything else and we initially thought it needed proper USB-PD negotiation we later found a config-file workaround for the Pi's proprietary PD protocol, but by then the PD module was already in place.
+
 
 ---
 
