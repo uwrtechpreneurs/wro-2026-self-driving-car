@@ -115,7 +115,7 @@ The Open Challenge uses a two sensor fusion approach: **LiDAR** provides distanc
 
 The Obstacle Challenge strategy layers a **camera based pillar detector** on top of the same wall following core used in the Open Challenge:
 
-1. The camera identifies red/green pillars and magenta parking markers via HSV color detection.
+1. The camera identifies red/green pillars and magenta parking markers via lab color detection.
 2. A tracker (`pillar_tracker.py`) stabilizes noisy per frame detections into one reliable pillar reading.
 3. Depending on the pillar's color and whether the robot is on a straight or approaching a corner, the navigator shifts its wall following lane offset left or right to pass the pillar on the correct side.
 4. Once both parking markers are visible, a dedicated state sequence executes the parallel parking maneuver.
@@ -194,7 +194,7 @@ The two communicate over UART with a simple custom protocol:
 
 ## Camera Module
 
-A **Raspberry Pi Camera Module 3 Wide** is used exclusively for color identification detecting red/green obstacle pillars and magenta parking lot markers via HSV color thresholding. It does not participate in wall following; that is handled entirely by the LiDAR.
+A **Raspberry Pi Camera Module 3 Wide** is used exclusively for color identification detecting red/green obstacle pillars and magenta parking lot markers via lab color thresholding. It does not participate in wall following; that is handled entirely by the LiDAR.
 
 Distance to a detected pillar is estimated using a pinhole camera model, calibrated against the pillar's known 100mm real world height:
 
@@ -266,7 +266,7 @@ The codebase is organized so each module maps to one hardware responsibility, an
 |---|---|
 | `lidar_reader.py` | Background thread wrapping the Slamtec SDK binary; exposes the latest full 360° scan as filtered angle/distance arrays |
 | `wall_extractor.py` | Converts raw LiDAR scans into world frame wall segments using MAD outlier filtering + PCA, with a confidence score per wall |
-| `camera_detector.py` | Background thread running Picamera2 + OpenCV HSV detection for pillars and parking markers, with distance estimation |
+| `camera_detector.py` | Background thread running Picamera2 + OpenCV lab detection for pillars and parking markers, with distance estimation |
 | `pillar_tracker.py` | Temporal smoothing/stabilization of camera pillar detections |
 | `teensy_bridge.py` | UART protocol handler between Pi and Teensy, running the receive loop on a background thread |
 | `navigation.py` | Open Challenge state machine and wall following control logic |
@@ -451,7 +451,7 @@ The robot follows the corridor formed by the inner and outer boundary walls, usi
 
 ## Obstacle Challenge Strategy
 
-1. **Detection** — the camera identifies red or green pillars by HSV color and estimates distance via the pinhole model.
+1. **Detection** — the camera identifies red or green pillars by lab color and estimates distance via the pinhole model.
 2. **Tracking** — `PillarTracker` stabilizes that detection across frames before the navigator trusts it.
 3. **Behavior selection** — the navigator picks a behavior (`NORMAL` / `STRAIGHT_RED` / `STRAIGHT_GREEN` / `CORNER_RED` / `CORNER_GREEN`) that shifts the wall following offset so the robot passes the pillar on the correct side: red pillars are kept on the robot's right (passed on the left), green pillars the opposite.
 
