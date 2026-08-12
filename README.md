@@ -48,25 +48,32 @@ This repository contains the engineering documentation for **UWR TechPreneurs**'
 
 ### Muhammed Fadhil PP
 
+![Fadhil](photos/team/fadhil.jpeg)
 
-| ![Front]((photos/team/fadhil.jpeg)) |
+
 **Age:** 18
 
-*(Bio to be added.)*
+I’m Fadhil, and this is my first time in Future Engineers. We also won gold badge at nationals in Future Innovators. My expertise is hardware and mechanical design. I build the structures and mechanisms that make the robot work.
+
+
 
 ### Hani Zaman P
 
+![Hani](photos/team/Hani.jpeg)
+
 **Age:** 18
 
-*(Bio to be added.)*
+I’m Hani, and this is my first season in Future Engineers. We won gold badge at nationals in Future Innovators with a fourth-place finish. My expertise is programming and system architecture. I focus on the logic that connects sensors, vision, and hardware into one working system.
 
 ### Jithu Joseph
 
 **Role:** Coach
 
-Both team members work across the full stack of the project mechanical design, electronics, and software  rather than splitting into fixed roles.
+Hi, I’m Jithu. I’m the coach for this team. I mentor the team through strategy, problem-solving, and competition preparation. I bring experience in robotics and guide the team through challenges.
 
 ### Team Photo
+
+![Team Photo](photos/team/team.jpeg)
 
 ---
 
@@ -91,6 +98,7 @@ This challenge emphasizes:
 | ![Front](photos/vehicle/front.jpeg) | ![Back](photos/vehicle/back.jpeg) |
 | Left | Right |
 | ![Left](photos/vehicle/left%20side.jpeg) | ![Right](photos/vehicle/right%20side.jpeg) |
+
 
 ---
 
