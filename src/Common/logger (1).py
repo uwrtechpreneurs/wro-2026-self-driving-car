@@ -11,7 +11,7 @@ Each run creates a new CSV inside
 
 logs/
 
-Author : Jithu Joseph
+
 """
 
 import csv

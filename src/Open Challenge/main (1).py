@@ -4,7 +4,7 @@ main.py
 
 Main entry point for the WRO Navigation System.
 
-Author : Jithu Joseph
+
 """
 
 import serial

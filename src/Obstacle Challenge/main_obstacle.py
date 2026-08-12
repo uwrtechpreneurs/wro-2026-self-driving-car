@@ -4,7 +4,7 @@ main_obstacle.py
 
 Main entry point for the WRO Obstacle Challenge Navigation System.
 
-Author : Jithu Joseph
+
 """
 
 import sys
