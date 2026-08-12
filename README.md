@@ -105,8 +105,8 @@ This challenge emphasizes:
 
 # Performance Videos
 
-- 🎥 **Open Challenge:** *(link pending)*
-- 🎥 **Obstacle Challenge:** *(link pending)*
+- 🎥 **Open Challenge:** https://youtu.be/rztB6XzHc4U
+- 🎥 **Obstacle Challenge:** https://youtu.be/TNqtxHg5q2g
 
 ---
 
