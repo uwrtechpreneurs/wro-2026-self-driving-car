@@ -514,7 +514,3 @@ Each run automatically creates a timestamped CSV log under `logs/` for post-run 
 See the full [Bill of Materials](#bill-of-materials-bom) above for the itemized breakdown.
 
 ---
-
-# AI Usage Disclosure
-
-Claude (Anthropic) was used to help structure and write this README based on the team's own hardware choices and source code.
