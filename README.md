@@ -48,7 +48,7 @@ This repository contains the engineering documentation for **UWR TechPreneurs**'
 
 ### Muhammed Fadhil PP
 
-(<photos/team/fadhil.jpeg>)
+[fadhil](photos/team/fadhil.jpeg)
 
 **Age:** 18
 
@@ -91,8 +91,6 @@ This challenge emphasizes:
 | ![Front](photos/vehicle/front.jpeg) | ![Back](photos/vehicle/back.jpeg) |
 | Left | Right |
 | ![Left](photos/vehicle/left%20side.jpeg) | ![Right](photos/vehicle/right%20side.jpeg) |
-
-*(Additional angle: [photos/vehicle/2.jpeg](photos/vehicle/2.jpeg) — top/bottom shots still to be added per WRO photo requirements.)*
 
 ---
 
